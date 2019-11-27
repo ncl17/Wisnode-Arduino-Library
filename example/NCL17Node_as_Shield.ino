@@ -15,9 +15,9 @@ DHT dht(DHTPIN, DHTTYPE);
 #define JOIN_MODE OTAA    //  OTAA or ABP
 
 #if JOIN_MODE == OTAA
-String DevEui = "cfcb5adc684e2c81"; // Fill this out
-String AppEui = "cfcb5adc684e2c81"; // Fill this out
-String AppKey = "166ab6f2bb0817d62a268d60699d15ef"; // Fill This out
+String DevEui = "YOUR DEV EUI"; // Fill this out
+String AppEui = "YOUR APP EUI"; // Fill this out
+String AppKey = "YOUR APP KEY"; // Fill This out
 #else JOIN_MODE == ABP
 String NwkSKey = "";
 String AppSKey = "";
