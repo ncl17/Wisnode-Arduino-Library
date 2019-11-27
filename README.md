@@ -6,12 +6,12 @@ RAK811 Wisnode-lora
 - firmware ver 3.0.12 HF (AS923)
 
 
-test ARDUINO UNO
+Test with ARDUINO UNO
 
-
-ARDUINO UNO                   WISNODE-LORA 1.2
-DO 2        ----------------  rx
-DO 3        ----------------  tx
-5v          ----------------  5v
-GND         ----------------  GND
+| ARDUINO UNO | WISNODE-LORA 1.2 | 
+|---------|:-------:|
+| DO 2| rx|
+| DO 3| tx|
+| 5v| 5v|
+| GND| GND|
 
